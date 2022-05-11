@@ -1,0 +1,274 @@
+body {
+    display: block;
+    flex-direction: column;
+    background-color: rgb(235, 234, 234);
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color:rgb(200, 52, 67);
+    text-align: center;
+    font-weight: 800;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.image1 {
+    width: 25%;
+    margin-left: 35%;
+    border: 3px solid gainsboro;
+    border-radius: 90px;
+
+}
+
+.about {
+    word-spacing: 3px;
+}
+
+.main
+    {
+        width: 40%;
+        border: 2px none;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px gainsboro;
+        padding: 20px;
+        text-align: justify;
+        position: relative;
+        margin-left: 28%;
+        margin-right: 28%;
+        background-color: white;
+        letter-spacing: -1px;
+
+    }
+
+.button1 {
+    background-color: rgb(189, 62, 75);
+    padding: 12px;
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-bottom: 30px;
+    border: 2px none;
+    border-radius: 5px;
+
+}
+
+.brands {
+    word-spacing: 70px;
+    font-size: large;
+}
+
+.icons {
+    width: 40%;
+    border: 2px none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gainsboro;
+    background-color: white;
+    /* padding: 20px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+    position: relative;
+    margin-left: 28%;
+    margin-top: 50px;
+    margin-right: 28%;
+    word-spacing: 30px;
+    letter-spacing: -1px;
+    font-weight: 500;
+
+}
+
+a:link {
+    color: rgb(206, 204, 204);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(227, 224, 224);
+    text-decoration: none;
+}
+a:hover {
+    color:crimson;
+    text-decoration: none;
+}
+a:active {
+    color:crimson;
+    text-decoration: none;
+}
+
+.movies {
+    letter-spacing: -1px;
+    width: 40%;
+    background-color: white;
+    border: 2px none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gainsboro;
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 28%;
+    margin-right: 28%;
+
+}
+
+mark {
+    background-color: rgb(188, 186, 186);
+    color: grey;
+}
+
+.movietitle {
+    color: grey;
+    font-weight: 500;
+
+}
+
+.space {
+    width: 20%;
+    float: left;
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+
+h4 {
+    font-weight: 600;
+    letter-spacing: 2.5;
+}
+
+.spacemovie {
+    text-align: justify;
+    font-size: small;
+    word-spacing: 10px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+
+}
+
+.hulot {
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alien {
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.hulotmovie {
+    text-align: justify;
+    font-size: small;
+    word-spacing: 10px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+.alienmovie {
+    text-align: justify;
+    font-size: small;
+    word-spacing: 10px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+/* media screen */
+
+@media screen and (max-width: 400px) {
+    .space {
+        float: none;
+        width: 30%;
+    }
+    .hulot {
+        float: none;
+        width: 30%;
+    }
+    .alien {
+        float: none;
+        width: 30%;
+    }
+
+    .main {
+        width: 60%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .icons {
+        width: 60%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .movies {
+        width: 60%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+
+/* media screen */ 
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .brands {
+        word-spacing: 50px;
+    }
+    .icons {
+        word-spacing: 10px;
+    }
+
+    .space {
+        float: none;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .hulot {
+        float: none;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .alien {
+        float: none;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .button1 {
+        padding: 10px;
+        margin-left: 20%;
+    }
+
+    .main {
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .icons {
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .movies {
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
+/* media screen */ 
+@media screen and (min-width: 768px) {
+    
+}
